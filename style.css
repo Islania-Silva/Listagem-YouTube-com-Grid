@@ -1,0 +1,72 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+p {
+    margin: 0px;
+}
+body {
+    background-color: rgb(19, 18, 18);
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: rgb(10, 10, 10);
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.menu-topo-esquerdo {
+    width: 100px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-topo-meio {
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 30px;
+    border: 1px solid rgb(97, 95, 95);
+}
+input {
+    background-color: rgb(0, 0, 0);
+    width: 330px;
+    height: 30px;
+    border: none;
+}
+.lupa {
+    display: flex;
+    background-color: rgb(124, 122, 122);
+    width: 50px;
+    height: 40px;
+    border-radius: 0px 30px 30px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.menu-topo-direito {
+    width: 130px;
+    height: 34px;
+    justify-content: space-between;
+}
+.menu-topo-esquerdo, .menu-topo-direito {
+    display: flex;
+    align-items: center;
+}
+.menu-topo-meio img ,.menu-topo-esquerdo img, .menu-topo-direito img, .inscritos img {
+    cursor: pointer;
+}
+footer, footer a {
+    background-color: rgb(29, 27, 27);
+    padding: 5px;
+    color: rgb(127, 133, 138);
+}
+footer a {
+    padding: 5px;
+}

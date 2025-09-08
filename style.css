@@ -1,12 +1,11 @@
 * {
     font-family: 'Roboto', sans-serif;
-    color: white;
 }
 p {
     margin: 0px;
 }
 body {
-    background-color: rgb(19, 18, 18);
+    background-color: rgb(255,255,255);
     margin: 0px;
     padding: 0px;
 }
@@ -40,6 +39,12 @@ input {
     width: 330px;
     height: 30px;
     border: none;
+}
+.menu-topo-meio input:focus {
+    outline: none; /* Tirar a borda padrão (OBS: Essa propriedade ajuda na acessibilidade, então ao tirar tem que colocar outra para destacar o campo) */
+    border: none;
+    box-shadow: inset 0px 0px 6px rgb(128, 130, 128);
+    border-radius: 5px;
 }
 .lupa {
     display: flex;
